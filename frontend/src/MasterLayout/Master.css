@@ -1,0 +1,87 @@
+/* header - style */
+
+.header {
+  position: sticky;
+  padding: 0%;
+  top: 0%;
+  z-index: 99;
+  height: 70px;
+}
+
+.header-container {
+  display: flex;
+  transition: width 0.3s ease;
+  justify-content: space-between;
+  padding: 0px 16px;
+  margin: 0px 0px;
+}
+
+.header-title {
+  font-size: 24px;
+  color: #7f7f7f;
+  font-weight: 700;
+}
+
+.header-icon {
+  font-size: 30px;
+  color: white;
+}
+
+.header-crossicon {
+  font-size: 30px;
+  margin-right: 850px;
+  color: #7f7f7f;
+}
+
+/* sidebar - style */
+
+.desktop-screen-sidebar {
+  position: sticky !important;
+  height: 100vh !important;
+  overflow-y: auto !important;
+  top: 0% !important;
+  left: 0% !important;
+  bottom: 0% !important;
+}
+
+.mobile-screen-sidebar {
+  position: fixed !important;
+  height: 100vh !important;
+  overflow-y: auto !important;
+  top: 0% !important;
+  left: 0% !important;
+  bottom: 0% !important;
+  z-index: 1000 !important;
+}
+
+.sidebar-menu-active {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF !important;
+  background-color: transparent !important;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar-menu-active:hover {
+  background-color: #34495e !important;
+}
+
+.ant-menu-item-selected {
+  background-color: #34495e !important;
+}
+
+.ant-layout-sider-trigger {
+  border-top: 1px solid #2c3e50 !important;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.ant-drawer-body {
+  background-color:#2c3e50 !important;
+}

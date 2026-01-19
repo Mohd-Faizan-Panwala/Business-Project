@@ -1,0 +1,89 @@
+.my-card-container {
+    width: 100%;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+    margin-bottom: 24px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.my-card-titles {
+    font-weight: 700;
+    font-size: 16px;
+    width: 50%;
+}
+
+.new-button {
+    font-weight: 600;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.new-button:hover {
+    color: initial !important;
+}
+
+/* search design */
+
+.search-input {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-style {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    color: rgba(214, 214, 214, 1);
+}
+
+.searchbox {
+    margin-left: 16px;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+}
+
+.searchbox .searchinput {
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.searchbox .searchinput::placeholder {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: rgba(214, 214, 214, 1);
+}
+
+/* table design */
+
+.title-style {
+    font-family: 'Open Sans' !important;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(136, 136, 136, 1);
+}
+
+.table-data-style {
+    font-family: 'Open Sans' !important;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    display: block;
+}
